@@ -2,6 +2,7 @@ import random
 import string
 from config.settings import SPECIAL_CHARS
 
+#true by default
 def generate_password(length=12, include_upper=1, include_lower=1, 
                      include_digits=1, include_special=1):
     chars = ""
