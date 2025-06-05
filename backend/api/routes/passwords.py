@@ -8,6 +8,7 @@ from services.password_service import (
 
 router = APIRouter()
 
+#schema
 class PasswordRequest(BaseModel):
     length: int = 12
     include_upper: int = 1
